@@ -21,6 +21,10 @@
   transition: 0.2s;
 }
 
+.container svg {
+  max-width: revert;
+}
+
 .container:hover {
   background-color: var(--blue);
 }
